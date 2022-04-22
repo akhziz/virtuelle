@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <title> réalité virtuelle </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+                                                                              <!-- code de lien pour telecharger les icons  -->
+    <script src="https://kit.fontawesome.com/039aae6d25.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+</head>
+<!--//////////////////////////////////------menu -----/////////////////////////////////////--> 
+<body class="body">
+    <header class="en-tete">
+        <img src="vr1.jpg" width="1000" height="250" >
+        <nav>
+            <ul>
+                <li><a href="accuiel.html"> Accueil </a></li>
+                <li><a href="usages.html"> L'usages de VR </a>
+                    <div class="menu">
+                        <div class="sous-menu">
+                            <ul>
+                                <li><a href="education.html">Education</a></li>
+                                <li><a href="sante.html">Santé médical </a></li> 
+                                <li><a href="sport.html">Sport</a></li>
+                                <li><a href="tourisme.html">Tourisme</a></li>
+                            </ul>  
+                        </div>
+                    </div>
+                </li>
+
+                <li><a href="equipements.html"> Equipements </a>
+                    <div class="menu">
+                        <div class="sous-menu">
+                            <ul>
+                                <li><a href="casque.html">Casque VR</a></li>
+                                <li><a href="camera360.html">Caméra</a></li>
+                                <li><a href="lunette.html">Lunettes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+
+                <li> <a href="avantages.html"> Avantage & Inconvénients </a>
+                    <div class="menu">
+                        <div class="sous-menu">
+                            <ul>
+                                <li><a href="avantages">Avantages</a></li>
+                                <li><a href="inconvenients">Inconvenients</a></li>
+                            </ul>
+                        </div>
+                    </div> 
+                </li> `
+
+                <li><a href="contact.html"> Contact nous... </a></li>
+
+                <li><a href="references.html"> references </a></li>
+            </ul>
+        </nav>
+
+<!--/////////////////////////////////-----contenu de page -------------//////////////////////////////////////-->
+    </header>
+    <div class="contenu-principal">
+        <section class="top-contenu">
+            <center>
+            <header> <h1> Réalité Virtuelle </h1> </header>
+            </center>
+                <p>
+                <h3>C’est quoi la technologie VR (réalité virtuelle) ?</h3>
+                        La Réalité Virtuelle est une technologie qui utilise un logiciel pour créer un environnement virtuel. 
+                        Elle crée quelques sens artificiels tel que le toucher, l'ouï et la vue. Le monde de la réalité virtuelle
+                        fusionne la puissance des graphiques 3D. La technologie de la réalité virtuelle est largement utilisée
+                        pour différents usages. Tel que les jeux, l'ingénierie, le divertissement, l'éducation, le design, 
+                        les films, les médias, la médecine, tourisme, et plus encore.  La réalité virtuelle a fait différents changements 
+                        importants dans la vie des humains et leurs activités quotidiennes.<br>
+                    
+                </p>
+
+        </section>
+        <section class="top-contenu">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/uiEdJRpJSv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                    
+             
+        </section>
+        
+    </div>
+
+
+<!--//////////////////////////////---------barre a gouche------/////////////////////////////////////////-->
+
+    <aside>
+        <article class="sidebar">
+           
+            <video width="100%"  autoplay muted>
+                <source src="ICON_VERSION8.mp4" type="video/mp4">
+            </video>
+
+        </article>
+    
+
+            <article class="sidebar">
+
+        <audio width="100%" controls>
+            <source src="audio1.mp3" type="audio/mpeg">
+           
+          </audio>
+
+
+        </article>
+
+        <article class="sidebar">
+            <video width="100%"  autoplay muted>
+                <source src="green.mp4" type="video/mp4">
+            </video>
+
+        </article>
+
+    </aside>
+    <!--/////////////////////////////////------pied de pade /////////////////////////////////////-->
+    <footer class="footer">
+        <p>
+                                                     <!-- les icons de reseau sociaux -->
+        
+        <a href="https://www.youtube.com/watch?v=Hf7v9IZBFuw"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.instagram.com/?hl=fr"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.facebook.com/stories/create"><i class="fa-brands fa-facebook"></i></a> <br>
+
+    
+    </p>
+       
+
+    </footer>
+
+    
+</body>
+</html>
