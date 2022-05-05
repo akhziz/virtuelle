@@ -1,0 +1,183 @@
+/*  */
+body{                                           /*arriare plan*/ 
+    
+    background-image:url("body2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(221, 235, 241);
+    line-height: 2;
+    font-size: 80%;
+    font-family: verdana;
+    text-align:left;
+
+}
+a{text-decoration: none;}                 /*lien sant alignement, et les colours pour la visite de lien  */ 
+a:link,a:visited{color: black;}
+a:hover,a:active{color: blue;
+}
+.body{
+    margin: 10px auto;
+    width: 90%;
+    clear: both;
+}
+                                  /*image de l'en-tete*/ 
+.en-tete img {
+    width: 100%;
+}
+
+
+                                        /*bare de menu*/
+nav {
+background-color: powderblue;
+height: 40px;
+border-radius: 4px;
+position: sticky;
+}
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+nav ul  li{
+    display: inline;                 /* bare de menu horizontal*/
+    list-style: none;
+   float: left;
+   text-align: center;
+    }
+
+nav ul li a {
+    text-decoration: none;
+    display: block; 
+    border-bottom: 2px solid transparent;
+    padding: 1px 0px ;
+}
+nav a:hover{
+    color: black;
+    border-bottom: 2px solid blue;
+}
+
+
+                                   /*le style de bare de menu */
+
+.en-tete a:link ,.en-tete a:active {
+        color:black;
+        padding: 10px 40px;
+        display: inline-block;
+        height: 20px;
+
+    }
+                             /*les colour  pour le lien (link) de  menu */
+
+.en-tete a:hover,.en-tete a:active {  
+    color: rebeccapurple;
+    background-color:powderblue;
+    text-shadow: none;
+}
+                                        /*sous menu */
+ .sous-menu{
+    display: none;
+    box-shadow: 0px 1px 1px #ccc;
+    background-color: powderblue;
+    
+ }   
+ nav >ul li:hover .sous-menu{
+     display: block;
+ }                
+
+.sous-menu li {
+    float: none;
+    width: 100%;
+    text-align: left;
+}
+.sous-menu a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous-menu a:hover{
+    border-bottom: none;
+    background-color:white;
+}
+
+.menu{
+    content: " ";
+    font-size: 12px;
+}
+.sous-menu{
+    display: none;
+    box-shadow: 0px 1px 1px #ccc;
+    background-color: powderblue;
+    position: absolute;
+    width: 10%;
+    z-index: 1000;
+    list-style: none;
+}
+
+
+                                    /*contenu de page texte , il prend just 70% de la page */
+.contenu-principal{
+    width: 70%;
+    float: left;
+}
+
+.top-contenu{                      /* arrier plan de texte*/
+
+    background-color: white;
+    padding: 2%;        
+    margin-top: 5%;
+    text-size-adjust: 14px;
+    border-radius: 5px;
+}
+
+
+                                    /*barre a gauche 24 % de page */
+.sidebar{
+    width: 24%;
+    margin: 1% 1% 1% 1%;
+    float: right;
+    padding: 0%;
+    background-color: white;
+}
+
+                                   /*pied de page */
+.footer{
+    margin-top: 10px 10px;
+    float: left;
+    width: 100%;
+    border-top: 1px dashed #000;
+    background:powderblue;
+    font-size: 25px;
+    align-items: center;
+
+}
+                    
+.footer p {
+    text-align: center;
+    color: gray;
+    width: 100%;
+    
+}
+
+                            /* pour le bouton envoyer */
+.submit{
+    content: "";
+    display: table;
+    
+}
+
+/*Les requêtes multimédias peuvent être utilisées pour vérifier de nombreux éléments, tels que: largeur et hauteur de la fenêtre 
+et largeur et hauteur de l'appareil et orientation (la tablette/le téléphone est-il en mode paysage ou portrait */
+
+@media screen and (max-width:400px){
+    .body{
+        width: 90%;
+        font-size: 95%;
+    }
+
+    .en-tete a:link ,.en-tete a:active {
+    
+        display:block;
+    }
+}
